@@ -25,7 +25,6 @@ function dateSample(sampleActivity) {
       let k = 0.693 / HALF_LIFE_PERIOD;
       let a = Math.log(MODERN_ACTIVITY / number);
       return Math.ceil(a / k);
-      }
   // remove line with error and write your code here
 }
 
